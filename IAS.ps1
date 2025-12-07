@@ -4,7 +4,7 @@ $ErrorActionPreference = "Stop"
 # Enable TLSv1.2 for compatibility with older clients
 [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
 
-$DownloadURL = 'https://raw.githubusercontent.com/Techiegems/adm-activation/main/IAS.ps1
+$DownloadURL = 'https://raw.githubusercontent.com/Techiegems/adm-activation/main/IAS.cmd
 '
 
 $rand = Get-Random -Maximum 99999999
@@ -27,3 +27,4 @@ Start-Process $FilePath $ScriptArgs -Wait
 
 $FilePaths = @("$env:TEMP\IAS*.cmd", "$env:SystemRoot\Temp\IAS*.cmd")
 foreach ($FilePath in $FilePaths) { Get-Item $FilePath | Remove-Item }
+

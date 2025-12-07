@@ -8,10 +8,10 @@
 ::
 ::   IDM Activation Script (IAS)
 ::
-::   Homepages: https://github.com/lstprjct/IDM-Activation-Script
-::              https://t.me/ModByPiash/5
+::   Homepages: https://github.com/Techiegems/IDM-Activation-Script
+::              https://t.me/Rins_gems
 ::
-::       Telegram: @Stripe_op
+::       Telegram: @Rins_gems
 ::
 ::============================================================================
 
@@ -63,7 +63,7 @@ exit /b
 ::========================================================================================================================================
 
 set "blank="
-set "mas=https://github.com/lstprjct/IDM-Activation-Script/wiki/"
+set "mas=https://github.com/Techiegems/IDM-Activation/wiki/"
 
 ::  Check if Null service is working, it's important for the batch script
 
@@ -373,8 +373,8 @@ echo:
 call :_color2 %_White% "             " %_Green% "Create By Piash"
 echo:            ___________________________________________________ 
 echo:
-echo:               Telegram: @ModByPiash
-echo:               Github: https://github.com/lstprjct
+echo:               Telegram: @Rins_gems
+echo:               Github: https://github.com/Techiegems
 echo:            ___________________________________________________ 
 echo:                                                               
 echo:               [1] Activate
@@ -913,3 +913,4 @@ exit /b
 
 ::========================================================================================================================================
 :: Leave empty line below
+
